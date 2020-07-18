@@ -2,7 +2,7 @@ from keras.models import model_from_json
 import numpy as np
 
 pre_data = np.loadtxt('predict.txt')
-model = model_from_json(open('model_architecture.json').read())
+model = model_from_json(open('model.json').read())
 model.load_weights('weights.h5')
 model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
 pre_data = pre_data.astype('int32')
