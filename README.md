@@ -36,7 +36,7 @@ Thinks to need
 #DHT11,
 #BMP180,
 #Rain sensor,
-#ESP8622,
+#ESP8266,
 #jumper wires.
 
 
