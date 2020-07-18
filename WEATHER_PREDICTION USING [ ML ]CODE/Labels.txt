@@ -1,0 +1,5 @@
+Labels: 
+0 = Thunderstorm 0005 
+1 = Rain 0210 
+2 = Fog 0110 
+3 = Sunshine 1000

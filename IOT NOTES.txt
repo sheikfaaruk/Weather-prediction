@@ -1,0 +1,31 @@
+#DHT11
+The DHT11 is a basic, ultra low-cost digital temperature and humidity sensor. It uses a capacitive humidity sensor and a thermistor to measure the surrounding air and spits out a digital signal on the data pin. Its fairly simple to use, but requires careful timing to grab data. The digital signal is fairly easy to read using any microcontroller.
+
+#Features of DHT11
+1.Ultra low cost
+2.3 to 5V power and I/O
+3.2.5mA max current use during conversion (while requesting data)
+4.Good for 20-80% humidity readings with 5% accuracy
+5.Good for 0-50°C temperature readings ±2°C accuracy
+6.No more than 1 Hz sampling rate (once every second)
+7.Body size 15.5mm x 12mm x 5.5mm
+8.4 pins with 0.1″ spacing
+
+# BMP180
+The BMP180 is the new digital barometric pressure sensor of Bosch Sensortec, with a very high performance, which enables applications in advanced devices such as smartphones, tablet PCs, and sports devices. It follows the BMP085 and brings many improvements, like the smaller size and the expansion of digital interfaces.
+The ultra-low power consumption down to 3 μA makes the BMP180 the leader in power saving for your devices. BMP180 is also distinguished by its very stable behavior (performance) with regard to the independence of the supply voltage.
+
+#Features of BMP180
+1.Vin: 3 to 5VDC
+2.Logic: 3 to 5V compliant
+3.Pressure sensing range: 300-1100 hPa (9000m to -500m above sea level)
+4.Up to 0.03hPa / 0.25m resolution
+5.-40 to +85°C operational range, +-2°C temperature accuracy
+6.This board/chip uses I2C 7-bit address 0x77.
+
+#Rain sensor
+The rain sensor detects water that completes the circuits on its sensor boards’ printed leads. The sensor board acts as a variable resistor that will change from 100k ohms when wet to 2M ohms when dry. In short, the wetter the board the more current that will be conducted.
+
+#Features of Rain sensor
+1.Vin: 3 to 5VDC
+2.Logic: 3 to 5V compliant
