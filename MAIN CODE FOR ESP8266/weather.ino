@@ -68,13 +68,12 @@ void loop()
                      Serial.println("%. Send to Thingspeak.");
 //--- extra---- you can measure dew point with the temperature and the humidity
   
-							       double gamma = log(h/100) + ((17.62*t) / (243.5+t));
-							       double dp = 243.5*gamma / (17.62-gamma);
-  
-	        						Serial.print("Dew point:        ");
-					        		Serial.print(dp);
-							        Serial.print(" degrees Celsius ");
-							        Serial.println();
+		     double gamma = log(h/100) + ((17.62*t) / (243.5+t));
+	             double dp = 243.5*gamma / (17.62-gamma);
+	             Serial.print("Dew point:        ");
+		     Serial.print(dp);
+		     Serial.print(" degrees Celsius ");
+		     Serial.println();
 //--------------------------------------RAIN---------------------------------
   
       const int sensorMin = 150; //0;     // sensor minimum
@@ -145,16 +144,16 @@ void loop()
               postStr +="&field2=";
               postStr += String(h);//humidity
               postStr += "&field3=";
-						  postStr += String(dp);//dew point
-						  postStr += "&field4=";
-						  postStr += String(P*0.0295333727,2);//absolute pressure
-						  postStr += "&field5=";
-						  postStr += String(p0*0.0295333727,2);//relative pressure
-						  postStr += "&field6=";
-						  postStr += String(a,0);//altitude
-						  postStr +="&field7=";
-						  postStr += String(sensorValue2);//rain
-						  postStr += "\r\n\r\n\r\n\r\n";
+	      postStr += String(dp);//dew point
+	      postStr += "&field4=";
+	      postStr += String(P*0.0295333727,2);//absolute pressure
+	      postStr += "&field5=";
+	      postStr += String(p0*0.0295333727,2);//relative pressure
+	      postStr += "&field6=";
+	      postStr += String(a,0);//altitudE
+	      postStr +="&field7=";
+	      postStr += String(sensorValue2);//rain
+	      postStr += "\r\n\r\n\r\n\r\n";
  
                              client.print("POST /update HTTP/1.1\n");
                              client.print("Host: api.thingspeak.com\n");
