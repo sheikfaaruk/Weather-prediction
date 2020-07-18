@@ -9,10 +9,10 @@ SFE_BMP180 pressure;
 int sensorPin = A0;
 int sensorValue2 = 0;  // variable to store the value coming from sensor Rain sensor
 #define ALTITUDE 80.0 // Altitude of SparkFun's HQ in Boulder, CO. in meters
-String apiKey = "PCEM79W8TAGDCIR0";//  Enter your Write API key from ThingSpeak
+String apiKey = "ENTER UR APIKEY HERE";//  Enter your Write API key from ThingSpeak
 
-const char *ssid =  "esp"; // replace with your wifi ssid and wpa2 key
-const char *pass =  "1234567890";
+const char *ssid =  "ERROR"; // replace with your wifi ssid and wpa2 key
+const char *pass =  "NOPASSWORD";
 const char* server = "api.thingspeak.com";
 
 #define DHTPIN 0 //pin where the dht11 is connected
