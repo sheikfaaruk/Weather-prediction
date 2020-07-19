@@ -1,6 +1,13 @@
 # weatherprediction
 #IOT #ML
-:  HUMIDITY:
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::  
+TEMPERATURE:
+#Temperature is a degree of hotness or coldness the can be measured using a thermometer. 
+#It's also a measure of how fast the atoms and molecules of a substance are moving. 
+#Temperature is measured in degrees on the Fahrenheit, Celsius, and Kelvin scales.
+
+
+HUMIDITY:
 #Humidity is the concentration of water vapour present in the air. 
 #Water vapour, the gaseous state of water, is generally invisible to the human eye.
 #Humidity indicates the likelihood for precipitation, dew, or fog to be present. 
@@ -26,11 +33,6 @@ RAIN:
 #water that falls in drops from clouds in the sky.
 #weather in which there is a lot of rain : rainy weather.
 #large amounts of rain that fall at a particular time of year.
-
-TEMPERATURE:
-#Temperature is a degree of hotness or coldness the can be measured using a thermometer. 
-#It's also a measure of how fast the atoms and molecules of a substance are moving. 
-#Temperature is measured in degrees on the Fahrenheit, Celsius, and Kelvin scales.
 
 Thinks to need
 #DHT11,
